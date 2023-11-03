@@ -1,24 +1,18 @@
 body{
-    background-color: rgba(143, 34, 245, 0.795);
-    font: normal 15pt Arial;
+    background-color: rgba(204, 237, 245, 0.795);
+    font: normal 15px arial;
    
   
 }
-header{
-    color: white;
-    text-align: center ;
-  
-}
+
 section{
   
-background: rgb(233, 233, 233); 
-border-radius: 10px;
-padding: 25px;
-width: 500px;
-margin: auto;
-box-shadow: 3px 3px 7px rgb(12, 12, 12);
-
-
+    background: rgb(212, 163, 163); 
+    border-radius: 10px;
+    padding: 25px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 7px 4px rgb(12, 12, 12);
 
 }
 
@@ -26,5 +20,37 @@ box-shadow: 3px 3px 7px rgb(12, 12, 12);
 footer{
    color: white;
    text-align: center;
-font-style: italic;
+    font-style: italic;
 }
+h1{
+    color: #f00;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    text-align:left;
+
+
+}
+
+
+
+.navbar a {
+    float:  right center   ;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+   }
+
+   .navbar a:hover {
+       background-color: #ddd;
+        color: black;
+       }
+
+
+
+
+
+
